@@ -1,0 +1,263 @@
+@media (max-width: 1279.98px){
+    .nav-block{
+        left: -320px;
+        overflow: hidden;
+        transition: .5s;
+    }
+    .close-menu{
+        display: block;
+    }
+    .header-block{
+        max-width: 1137px;
+        justify-content: space-between;
+    }
+    .header-box__left{
+        display: flex;
+    }
+    .wrapper-content{
+        width: 100%;
+    }
+}
+@media (max-width: 1199.98px) {
+    /*=====================================our-specialists-media-start=====================================*/
+    .specialists-block {
+        width: 318px;
+    }
+
+    /*=====================================our-specialists-media-end=======================================*/
+
+    /*====================================about-the-center-media-start=====================================*/
+    .about-text {
+        margin-left: -300px;
+        font-size: 14px;
+    }
+
+    /*=====================================about-the-center-media-end=======================================*/
+
+    /*========================================license-media-start===========================================*/
+    .license-big {
+        height: auto;
+    }
+    /*=========================================license-media-end============================================*/
+
+}
+
+@media (max-width: 991.98px) {
+    /*====================================static-media-start================================================*/
+    .container {
+        padding: 0 16px;
+    }
+    /*=====================================static-media-end=================================================*/
+
+    /*========================================surgery-media-start===========================================*/
+    .surgery h1 {
+        font-size: 64px;
+    }
+
+    /*=========================================surgery-media-end============================================*/
+
+    /*=====================================about-the-center-media-start======================================*/
+    .about-the-center-cnt {
+        flex-direction: column;
+    }
+
+    .about-the-center-slider, .about-the-center-block {
+        width: 100%;
+        margin: 35px 0 20px 0;
+    }
+
+    .about-text {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-the-center-slider .slick-prev, .about-the-center-slider .slick-next {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .about-the-center-slider .slick-prev {
+        right: unset;
+        left: 0;
+    }
+
+    .about-the-center-slider .slick-next {
+        right: 0;
+    }
+
+    /*=====================================about-the-center-media-end=======================================*/
+
+    /*========================================stage-media-start=============================================*/
+   .stage-cnt{
+       margin-top: 60px;
+   }
+    .one-stage {
+        width: 50%;
+    }
+
+    /*========================================stage-media-end===============================================*/
+
+    /*==========================================map=-media-start============================================*/
+    .map-main {
+        height: 365px;
+    }
+
+    .office-contacts-main {
+        padding: 32px 0;
+    }
+
+    /*===========================================map-media-end===============================================*/
+
+    /*==========================================footer-media-start===========================================*/
+    .footer-cnt {
+        flex-direction: column;
+    }
+
+    .footer-cnt p {
+        width: 100%;
+        max-width: unset;
+        margin-bottom: 25px;
+    }
+    /*==========================================footer-media-end=============================================*/
+
+}
+
+@media (max-width: 767.98px) {
+    .header-phone__icon--mob{
+        display: block;
+    }
+    .header-box__phone,
+    .header-btn{
+        display: none;
+    }
+
+    .fixed-js{
+        background-color: transparent;
+    }
+    .fixed-js.sticky{
+        background-color: white;
+    }
+    .fixed-js .header-box__nav--icone svg{
+        fill: white;
+    }
+    .fixed-js.sticky .header-box__nav--icone svg{
+        fill: black;
+    }
+    .fixed-js .header-box__logo{
+        filter: inherit;
+    }
+    .fixed-js.sticky .header-box__logo{
+        filter: invert(1);
+    }
+    /*====================================surgery-media-start======================================*/
+    .surgery h1 {
+        font-size: 50px;
+    }
+
+    /*====================================surgery-media-end======================================*/
+
+    /*=====================================our-specialists-media-start=======================================*/
+
+    .specialists-block {
+        width: 230px;
+    }
+
+    /*=====================================our-specialists-media-end=======================================*/
+    /*========================================stage-media-start=============================================*/
+.stage-cnt{
+    margin-top: 40px;
+
+}
+    .work-stages {
+        counter-reset: section;
+        margin: 26px 0 40px 0;
+    }
+    /*========================================stage-media-end===============================================*/
+
+
+}
+
+@media (max-width: 575.98px) {
+    /*====================================static-media-start================================================*/
+
+    .static-cnt h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+    /*====================================static-media-end==================================================*/
+
+    /*====================================surgery-media-start======================================*/
+    .surgery h1 {
+        font-size: 30px;
+    }
+    .surgery:before{
+        display: none;
+    }
+
+        /*====================================surgery-media-end======================================*/
+    /*=====================================our-specialists-media-start=======================================*/
+    .our-specialists-cnt {
+        margin: 40px 0;
+    }
+    .specialists-block {
+        width: 100%;
+    }
+
+    .static-slider .slick-prev {
+        left: 0;
+    }
+
+    .static-slider .slick-next {
+        right: 0;
+    }
+
+    /*=====================================our-specialists-media-end=======================================*/
+
+    /*=====================================stage-media-start========================================*/
+    .one-stage {
+        width: 100%;
+    }
+
+    /*======================================stage-media-end=========================================*/
+    /*=====================================license-media-start======================================*/
+    .license-slider {
+        margin: 52px 0 0 0;
+    }
+
+    .license-big {
+        width: auto;
+    }
+
+
+    /*=====================================license-media-end========================================*/
+    /*=======================================map-media-start========================================*/
+    .map {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .map-main {
+        position: relative;
+    }
+
+    .office-contacts-main {
+        justify-content: flex-start;
+    }
+
+    /*=======================================map-media-end==========================================*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
